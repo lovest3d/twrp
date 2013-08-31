@@ -3,7 +3,10 @@
 
 <remote  name="github"
            fetch=".."
-           review="review.teamw.in" />
-
-<project path="Team-Win-Recovery-Project" name="TeamWin/Team-Win-Recovery-Project" />
+           
+<default revision="refs/heads/twrp2440cn"
+         remote="github"
+         sync-j="4" />
+         
+<project path="recovery-twrp2440cn" name="benjaminwan/TWRP-in-chs" />
 </manifest>
